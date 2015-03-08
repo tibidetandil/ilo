@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="ilo" package="grepseed.games.ilo" version="1.0.0" company="Seba" />
+
+	<!-- output -->
+	<app main="grepseed.ilo.Main" file="ilo" path="bin" />
+
+	<window background="#000" fps="60" />
+	<window width="1925" height="1080" unless="mobile" />
+	<window orientation="landscape" vsync="false" antialiasing="0" if="cpp" />
+
+	<!-- classpath, haxe libs -->
+	<source path="src" />
+	<haxelib name="openfl" />
+	<haxelib name="actuate" />
+
+	<!-- assets -->
+	<icon path="assets/logo.png" />
+	<assets path="assets/images" rename="images" />
+	<assets path="assets/fonts" rename="fonts" />
+
+</project>
